@@ -1,10 +1,10 @@
 from .base import *
 
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 TEMPLATE_DIRS = [BASE_DIR.child('templates')]
 

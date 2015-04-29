@@ -10,7 +10,5 @@ urlpatterns = patterns('',
     url(r'^miembros/$', GetMemberViewSpanish.as_view(), name='obtener_miembros'),
     url(r'^send-careers-email-spanish/$', SendingCareersViewSpanish.as_view(), name='send_careers_spanish'),
     url(r'^send-contact-us-email-spanish/$', SendingContactUsViewSpanish.as_view(), name='send_contact_us_spanish'),
-
-    
     
 )

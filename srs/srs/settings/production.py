@@ -18,9 +18,9 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-MEDIA_URL = 'http://45.55.131.51/media/'
+MEDIA_URL = 'http://45.55.217.217/media/'
 MEDIA_ROOT = BASE_DIR.child('media')
 
-STATIC_URL = 'http://45.55.131.51/staticfiles/'
+STATIC_URL = 'http://45.55.217.217/static2/'
 STATICFILES_DIRS = [BASE_DIR.child('static')]
 STATIC_ROOT = BASE_DIR.child('static2')
