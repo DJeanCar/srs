@@ -1,0 +1,37 @@
+#header-services{
+	background: url("../img/servicefin.png") center no-repeat;
+  	background-size: cover;
+  	height: 268px;
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+.a-null-sector{
+	color: #333;
+}
+
+.a-null-sector:hover{
+	color: #f1c40f;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	#header-services{
+		height: 220px;
+	}
+
+	.centrado-rwd{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#header-services{
+		height: 150px;
+	}
+
+	.centrado-rwd{
+		text-align: center;
+	}
+}
